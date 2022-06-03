@@ -59,7 +59,6 @@ DEPEND="
 	media-video/ffmpeg
 	media-video/libva-utils
 	media-video/mediainfo
-	media-video/mpv::vapoursynth
 	media-video/pipewire
 	net-ftp/lftp
 	net-im/signal-desktop-bin
