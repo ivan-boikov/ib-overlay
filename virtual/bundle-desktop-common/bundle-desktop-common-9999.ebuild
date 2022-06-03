@@ -10,15 +10,8 @@ IUSE=""
 REQUIRED_USE="${IUSE}"
 
 DEPEND="
-	virtual/bundle-base
 	app-admin/pass
 	app-admin/pass-otp
-	app-admin/stow
-	app-arch/atool
-	app-arch/lz4
-	app-arch/lzop
-	app-arch/p7zip
-	app-arch/unrar
 	app-backup/borgbackup
 	app-crypt/pinentry
 	app-emulation/virt-manager
@@ -31,9 +24,7 @@ DEPEND="
 	app-text/zathura-djvu
 	app-text/zathura-pdf-mupdf
 	app-text/zathura-ps
-	dev-java/openjdk
 	dev-java/openjdk-jre-bin:8
-	dev-libs/openssl
 	dev-python/pip
 	dev-python/virtualenv
 	dev-qt/qtstyleplugins
@@ -43,8 +34,6 @@ DEPEND="
 	mail-mta/protonmail-bridge
 	media-fonts/fontawesome
 	media-fonts/liberation-fonts
-	media-fonts/noto-emoji
-	media-fonts/unifont
 	media-gfx/imagemagick
 	media-gfx/inkscape
 	media-gfx/maim
@@ -54,6 +43,7 @@ DEPEND="
 	media-sound/mpd
 	media-sound/ncmpcpp
 	media-sound/opus-tools
+	media-sound/pamixer
 	media-sound/playerctl
 	media-sound/sox
 	media-video/ffmpeg
@@ -65,15 +55,14 @@ DEPEND="
 	net-im/telegram-desktop
 	net-mail/isync
 	net-mail/notmuch
-	net-misc/chrony
 	net-misc/rclone
 	net-p2p/syncthing
 	net-vpn/networkmanager-openvpn
 	sys-apps/lm-sensors
 	sys-auth/elogind
 	sys-block/gparted
-	sys-firmware/intel-microcode
 	sys-fs/archivemount
+	virtual/bundle-base
 	www-client/chromium-bin
 	www-client/firefox
 	www-client/lynx
@@ -89,4 +78,11 @@ DEPEND="
 	x11-misc/xclip
 	x11-misc/xdotool
 	x11-misc/xwallpaper
+	net-fs/samba
+	media-sound/beets
+	sys-fs/jmtpfs
+	app-text/texlive
+	kde-apps/dragon
+	app-misc/nnn
+	app-text/xournalpp
 "

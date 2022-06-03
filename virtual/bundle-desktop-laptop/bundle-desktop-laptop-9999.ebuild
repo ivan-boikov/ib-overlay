@@ -18,4 +18,5 @@ DEPEND="
 	x11-apps/igt-gpu-tools
 	x11-libs/libXft
 	x11-libs/libva-intel-driver
+	sys-firmware/intel-microcode
 "

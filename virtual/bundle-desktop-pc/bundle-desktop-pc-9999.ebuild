@@ -11,4 +11,7 @@ REQUIRED_USE="${IUSE}"
 
 DEPEND="
 	virtual/bundle-desktop-common
+	games-action/multimc-bin
+	games-util/lutris
+	virtual/wine
 "

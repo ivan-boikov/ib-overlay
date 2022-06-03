@@ -45,4 +45,14 @@ DEPEND="
 	sys-kernel/linux-firmware
 	sys-process/cronie
 	sys-process/iotop
+	sys-apps/gawk
+	net-misc/rsync
+	app-arch/unzip
+	app-admin/stow
+	app-arch/atool
+	app-arch/lz4
+	app-arch/lzop
+	app-arch/p7zip
+	app-arch/unrar
+	net-misc/chrony
 "
