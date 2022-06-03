@@ -77,7 +77,6 @@ DEPEND="
 	www-client/chromium-bin
 	www-client/firefox
 	www-client/lynx
-	www-client/torbrowser-launcher
 	x11-base/xorg-server
 	x11-base/xorg-x11
 	x11-misc/dmenu
