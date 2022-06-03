@@ -67,7 +67,6 @@ DEPEND="
 	net-mail/notmuch
 	net-misc/chrony
 	net-misc/rclone
-	net-p2p/monero
 	net-p2p/syncthing
 	net-vpn/networkmanager-openvpn
 	sys-apps/lm-sensors
