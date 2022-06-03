@@ -5,9 +5,9 @@ DESCRIPTION="Bundling my packages together to manage multiple installs"
 LICENSE="metapackage"
 SLOT="0"
 KEYWORDS="amd64"
-IUSE=""
+IUSE="elogind"
 
-REQUIRED_USE="elogind"
+REQUIRED_USE="${IUSE}"
 
 DEPEND="
     sys-process/htop
