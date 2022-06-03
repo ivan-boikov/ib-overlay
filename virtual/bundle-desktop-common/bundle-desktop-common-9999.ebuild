@@ -82,7 +82,6 @@ DEPEND="
 	media-sound/beets
 	sys-fs/jmtpfs
 	app-text/texlive
-	kde-apps/dragon
 	app-misc/nnn
 	app-text/xournalpp
 "
