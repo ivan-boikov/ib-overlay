@@ -1,0 +1,95 @@
+EAPI=8
+
+DESCRIPTION="Bundling my packages together to manage multiple installs"
+
+LICENSE="metapackage"
+SLOT="0"
+KEYWORDS="amd64"
+IUSE=""
+
+REQUIRED_USE="${IUSE}"
+
+DEPEND="
+	virtual/bundle-base
+	app-admin/pass
+	app-admin/pass-otp
+	app-admin/stow
+	app-arch/atool
+	app-arch/lz4
+	app-arch/lzop
+	app-arch/p7zip
+	app-arch/unrar
+	app-backup/borgbackup
+	app-crypt/pinentry
+	app-emulation/virt-manager
+	app-misc/abook
+	app-misc/tmux
+	app-misc/trash-cli
+	app-office/libreoffice
+	app-shells/fzf
+	app-text/zathura
+	app-text/zathura-djvu
+	app-text/zathura-pdf-mupdf
+	app-text/zathura-ps
+	dev-java/openjdk
+	dev-java/openjdk-jre-bin:8
+	dev-libs/openssl
+	dev-python/pip
+	dev-python/virtualenv
+	dev-qt/qtstyleplugins
+	lxde-base/lxappearance
+	mail-client/neomutt
+	mail-mta/msmtp
+	mail-mta/protonmail-bridge
+	media-fonts/fontawesome
+	media-fonts/liberation-fonts
+	media-fonts/noto-emoji
+	media-fonts/unifont
+	media-gfx/imagemagick
+	media-gfx/inkscape
+	media-gfx/maim
+	media-gfx/sxiv
+	media-sound/easyeffects
+	media-sound/mpc
+	media-sound/mpd
+	media-sound/ncmpcpp
+	media-sound/opus-tools
+	media-sound/playerctl
+	media-sound/sox
+	media-video/ffmpeg
+	media-video/libva-utils
+	media-video/mediainfo
+	media-video/mpv::vapoursynth
+	media-video/pipewire
+	net-ftp/lftp
+	net-im/signal-desktop-bin
+	net-im/telegram-desktop
+	net-mail/isync
+	net-mail/notmuch
+	net-misc/chrony
+	net-misc/rclone
+	net-p2p/monero
+	net-p2p/syncthing
+	net-vpn/networkmanager-openvpn
+	sys-apps/lm-sensors
+	sys-auth/elogind
+	sys-block/gparted
+	sys-firmware/intel-microcode
+	sys-fs/archivemount
+	www-client/chromium-bin
+	www-client/firefox
+	www-client/lynx
+	www-client/torbrowser-launcher
+	x11-base/xorg-server
+	x11-base/xorg-x11
+	x11-misc/dmenu
+	x11-misc/dunst
+	x11-misc/i3lock
+	x11-misc/picom
+	x11-misc/redshift
+	x11-misc/tabbed
+	x11-misc/unclutter
+	x11-misc/xclip
+	x11-misc/xdotool
+	x11-misc/xwallpaper
+"
