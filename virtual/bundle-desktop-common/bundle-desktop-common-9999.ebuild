@@ -43,7 +43,6 @@ DEPEND="
 	media-sound/mpd
 	media-sound/ncmpcpp
 	media-sound/opus-tools
-	media-sound/pamixer
 	media-sound/playerctl
 	media-sound/sox
 	media-video/ffmpeg
