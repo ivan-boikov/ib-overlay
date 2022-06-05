@@ -23,6 +23,7 @@ DEPEND="
 	app-eselect/eselect-repository
 	app-misc/nnn
 	app-portage/gentoolkit
+	app-portage/portage-utils
 	app-portage/repoman
 	dev-lang/python
 	dev-vcs/git
@@ -37,6 +38,7 @@ DEPEND="
 	sys-apps/lshw
 	sys-apps/pciutils
 	sys-apps/usbutils
+	sys-boot/efibootmgr
 	sys-boot/mokutil
 	sys-fs/btrfs-progs
 	sys-fs/cryptsetup
@@ -46,7 +48,6 @@ DEPEND="
 	sys-kernel/gentoo-sources
 	sys-kernel/linux-firmware
 	sys-process/cronie
-	sys-process/iotop
-	app-portage/portage-utils
 	sys-process/htop
+	sys-process/iotop
 "
