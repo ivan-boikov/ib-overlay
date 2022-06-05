@@ -20,10 +20,9 @@ DEPEND="
 	app-misc/trash-cli
 	app-office/libreoffice
 	app-shells/fzf
-	app-text/zathura
-	app-text/zathura-djvu
-	app-text/zathura-pdf-mupdf
-	app-text/zathura-ps
+	app-text/texlive
+	app-text/xournalpp
+	app-text/zathura-meta
 	dev-java/openjdk-jre-bin:8
 	dev-python/pip
 	dev-python/virtualenv
@@ -38,6 +37,7 @@ DEPEND="
 	media-gfx/inkscape
 	media-gfx/maim
 	media-gfx/sxiv
+	media-sound/beets
 	media-sound/easyeffects
 	media-sound/mpc
 	media-sound/mpd
@@ -50,6 +50,7 @@ DEPEND="
 	media-video/libva-utils
 	media-video/mediainfo
 	media-video/pipewire
+	net-fs/samba
 	net-ftp/lftp
 	net-im/signal-desktop-bin
 	net-im/telegram-desktop
@@ -62,6 +63,7 @@ DEPEND="
 	sys-auth/elogind
 	sys-block/gparted
 	sys-fs/archivemount
+	sys-fs/jmtpfs
 	virtual/bundle-base
 	www-client/chromium-bin
 	www-client/firefox
@@ -78,10 +80,4 @@ DEPEND="
 	x11-misc/xclip
 	x11-misc/xdotool
 	x11-misc/xwallpaper
-	net-fs/samba
-	media-sound/beets
-	sys-fs/jmtpfs
-	app-text/texlive
-	app-misc/nnn
-	app-text/xournalpp
 "

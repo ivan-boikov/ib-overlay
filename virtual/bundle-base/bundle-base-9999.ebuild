@@ -11,27 +11,29 @@ REQUIRED_USE="${IUSE}"
 
 DEPEND="
 	app-admin/doas
+	app-admin/stow
 	app-admin/sysklogd
+	app-arch/atool
+	app-arch/p7zip
+	app-arch/unrar
 	app-crypt/efitools
 	app-crypt/sbsigntools
 	app-editors/nano
 	app-editors/neovim
 	app-eselect/eselect-repository
+	app-misc/nnn
 	app-portage/gentoolkit
 	app-portage/repoman
-	app-shells/zsh
 	dev-lang/python
 	dev-vcs/git
 	net-analyzer/iftop
 	net-analyzer/nmap
 	net-analyzer/traceroute
 	net-dns/bind-tools
-	net-dns/dnsmasq
 	net-firewall/ufw
-	net-fs/cifs-utils
 	net-fs/samba
+	net-misc/chrony
 	net-misc/networkmanager
-	sys-apps/busybox
 	sys-apps/lshw
 	sys-apps/pciutils
 	sys-apps/usbutils
@@ -45,14 +47,6 @@ DEPEND="
 	sys-kernel/linux-firmware
 	sys-process/cronie
 	sys-process/iotop
-	sys-apps/gawk
-	net-misc/rsync
-	app-arch/unzip
-	app-admin/stow
-	app-arch/atool
-	app-arch/lz4
-	app-arch/lzop
-	app-arch/p7zip
-	app-arch/unrar
-	net-misc/chrony
+	app-portage/portage-utils
+	sys-process/htop
 "
