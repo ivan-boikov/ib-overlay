@@ -10,7 +10,7 @@ IUSE=""
 REQUIRED_USE="${IUSE}"
 
 DEPEND="
-	virtual/desktop-common
+	virtual/bundle-desktop-common
 	sys-fs/lvm2
 	sys-power/acpilight
 	sys-power/cpupower
