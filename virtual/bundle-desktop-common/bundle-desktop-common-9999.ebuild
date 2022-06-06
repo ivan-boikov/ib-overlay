@@ -24,6 +24,7 @@ DEPEND="
 	app-text/xournalpp
 	app-text/zathura-meta
 	dev-java/openjdk-jre-bin:8
+	dev-libs/cxxopts
 	dev-python/pip
 	dev-python/virtualenv
 	dev-qt/qtstyleplugins
@@ -31,6 +32,7 @@ DEPEND="
 	mail-client/neomutt
 	mail-mta/msmtp
 	mail-mta/protonmail-bridge
+	media-fonts/dejavu
 	media-fonts/fontawesome
 	media-fonts/liberation-fonts
 	media-gfx/imagemagick
