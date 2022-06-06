@@ -32,6 +32,7 @@ DEPEND="
 	mail-client/neomutt
 	mail-mta/msmtp
 	mail-mta/protonmail-bridge
+	media-fonts/fonts-meta
 	media-gfx/imagemagick
 	media-gfx/inkscape
 	media-gfx/maim
