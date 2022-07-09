@@ -10,8 +10,8 @@ IUSE=""
 REQUIRED_USE="${IUSE}"
 
 DEPEND="
-	app-admin/doas
 	app-admin/stow
+	app-admin/sudo
 	app-admin/sysklogd
 	app-arch/atool
 	app-arch/p7zip
@@ -24,7 +24,6 @@ DEPEND="
 	app-misc/nnn
 	app-portage/gentoolkit
 	app-portage/portage-utils
-	app-portage/repoman
 	dev-lang/python
 	dev-vcs/git
 	net-analyzer/iftop

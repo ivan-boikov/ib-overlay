@@ -14,4 +14,5 @@ DEPEND="
 	games-action/multimc-bin
 	games-util/lutris
 	virtual/wine
+	app-emulation/dxvk
 "

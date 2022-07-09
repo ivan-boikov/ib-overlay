@@ -19,8 +19,11 @@ DEPEND="
 	app-misc/tmux
 	app-misc/trash-cli
 	app-office/libreoffice
+	app-portage/euses
+	app-portage/ufed
 	app-shells/bash-completion
 	app-shells/fzf
+	app-text/pdftk
 	app-text/texlive
 	app-text/xournalpp
 	app-text/zathura-meta
@@ -29,6 +32,8 @@ DEPEND="
 	dev-python/pip
 	dev-python/virtualenv
 	dev-qt/qtstyleplugins
+	dev-util/android-tools
+	games-utils/joystick
 	lxde-base/lxappearance
 	mail-client/neomutt
 	mail-mta/msmtp
@@ -58,13 +63,18 @@ DEPEND="
 	net-mail/isync
 	net-mail/notmuch
 	net-misc/rclone
+	net-p2p/monero
 	net-p2p/syncthing
 	net-vpn/networkmanager-openvpn
+	sys-apps/firejail
 	sys-apps/lm-sensors
 	sys-auth/elogind
 	sys-block/gparted
+	sys-devel/distcc
 	sys-fs/archivemount
+	sys-fs/compsize
 	sys-fs/jmtpfs
+	sys-process/lsof
 	virtual/bundle-base
 	www-client/chromium-bin
 	www-client/firefox
@@ -80,6 +90,8 @@ DEPEND="
 	x11-misc/unclutter
 	x11-misc/xclip
 	x11-misc/xcompmgr
+	x11-misc/xcompmgr
 	x11-misc/xdotool
 	x11-misc/xwallpaper
+	app-emulation/wine-vanilla
 "
