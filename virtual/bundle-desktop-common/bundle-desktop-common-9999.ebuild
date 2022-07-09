@@ -1,6 +1,6 @@
 EAPI=8
 
-DESCRIPTION="Bundling my packages together to manage multiple installs"
+DESCRIPTION="Bundle of packages for a generic daily-driver desktop"
 
 LICENSE="metapackage"
 SLOT="0"
@@ -19,6 +19,7 @@ DEPEND="
 	app-misc/tmux
 	app-misc/trash-cli
 	app-office/libreoffice
+	app-shells/bash-completion
 	app-shells/fzf
 	app-text/texlive
 	app-text/xournalpp
@@ -72,12 +73,13 @@ DEPEND="
 	x11-base/xorg-x11
 	x11-misc/dmenu
 	x11-misc/dunst
+	x11-misc/grabc
 	x11-misc/i3lock
-	x11-misc/picom
 	x11-misc/redshift
 	x11-misc/tabbed
 	x11-misc/unclutter
 	x11-misc/xclip
+	x11-misc/xcompmgr
 	x11-misc/xdotool
 	x11-misc/xwallpaper
 "

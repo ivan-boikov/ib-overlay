@@ -47,6 +47,7 @@ DEPEND="
 	sys-kernel/genkernel
 	sys-kernel/gentoo-sources
 	sys-kernel/linux-firmware
+	sys-misc/reptyr
 	sys-process/cronie
 	sys-process/htop
 	sys-process/iotop
