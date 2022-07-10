@@ -65,7 +65,6 @@ DEPEND="
 	net-misc/rclone
 	net-p2p/monero
 	net-p2p/syncthing
-	net-vpn/networkmanager-openvpn
 	sys-apps/firejail
 	sys-apps/lm-sensors
 	sys-auth/elogind

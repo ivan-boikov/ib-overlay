@@ -33,7 +33,6 @@ DEPEND="
 	net-firewall/ufw
 	net-fs/samba
 	net-misc/chrony
-	net-misc/networkmanager
 	sys-apps/lshw
 	sys-apps/pciutils
 	sys-apps/usbutils
