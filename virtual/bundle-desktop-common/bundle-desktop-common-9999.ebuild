@@ -10,6 +10,7 @@ IUSE=""
 REQUIRED_USE="${IUSE}"
 
 DEPEND="
+	acct-group/openvpn
 	app-admin/pass
 	app-admin/pass-otp
 	app-backup/borgbackup
@@ -33,7 +34,7 @@ DEPEND="
 	dev-python/virtualenv
 	dev-qt/qtstyleplugins
 	dev-util/android-tools
-	games-utils/joystick
+	games-util/joystick
 	lxde-base/lxappearance
 	mail-client/neomutt
 	mail-mta/msmtp
@@ -75,6 +76,7 @@ DEPEND="
 	sys-fs/jmtpfs
 	sys-process/lsof
 	virtual/bundle-base
+	virtual/wine
 	www-client/chromium-bin
 	www-client/firefox
 	www-client/lynx
@@ -92,5 +94,4 @@ DEPEND="
 	x11-misc/xcompmgr
 	x11-misc/xdotool
 	x11-misc/xwallpaper
-	app-emulation/wine-vanilla
 "

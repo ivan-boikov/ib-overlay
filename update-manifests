@@ -1,0 +1,4 @@
+find ./virtual -iname '*.ebuild' -type f -exec sh -c '
+  ebuild "$0" manifest
+' {} \;
+
