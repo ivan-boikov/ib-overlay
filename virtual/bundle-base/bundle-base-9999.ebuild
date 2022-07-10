@@ -22,6 +22,7 @@ DEPEND="
 	app-editors/neovim
 	app-eselect/eselect-repository
 	app-misc/nnn
+	app-misc/reptyr
 	app-portage/gentoolkit
 	app-portage/portage-utils
 	dev-lang/python
@@ -45,7 +46,6 @@ DEPEND="
 	sys-kernel/genkernel
 	sys-kernel/gentoo-sources
 	sys-kernel/linux-firmware
-	sys-misc/reptyr
 	sys-process/cronie
 	sys-process/htop
 	sys-process/iotop
