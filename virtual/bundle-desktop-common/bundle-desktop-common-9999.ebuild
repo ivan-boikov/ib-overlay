@@ -10,7 +10,6 @@ IUSE=""
 REQUIRED_USE="${IUSE}"
 
 DEPEND="
-	acct-group/openvpn
 	app-admin/pass
 	app-admin/pass-otp
 	app-backup/borgbackup
@@ -66,6 +65,7 @@ DEPEND="
 	net-misc/rclone
 	net-p2p/monero
 	net-p2p/syncthing
+	net-vpn/openvpn
 	sys-apps/firejail
 	sys-apps/lm-sensors
 	sys-auth/elogind
