@@ -32,6 +32,7 @@ DEPEND="
 	dev-python/pip
 	dev-python/virtualenv
 	dev-qt/qtstyleplugins
+	dev-tex/biblatex
 	dev-util/android-tools
 	games-util/joystick
 	lxde-base/lxappearance
