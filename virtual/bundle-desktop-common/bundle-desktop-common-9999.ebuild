@@ -69,6 +69,7 @@ DEPEND="
 	net-vpn/openvpn
 	sys-apps/firejail
 	sys-apps/lm-sensors
+	sys-apps/smartmontools
 	sys-auth/elogind
 	sys-block/gparted
 	sys-devel/distcc
