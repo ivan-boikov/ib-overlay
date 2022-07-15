@@ -25,6 +25,7 @@ DEPEND="
 	app-misc/reptyr
 	app-portage/gentoolkit
 	app-portage/portage-utils
+	app-text/highlight
 	dev-lang/python
 	dev-vcs/git
 	net-analyzer/iftop
