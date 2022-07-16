@@ -64,6 +64,7 @@ DEPEND="
 	net-mail/isync
 	net-mail/notmuch
 	net-misc/rclone
+	net-misc/youtube-dl
 	net-p2p/monero
 	net-p2p/syncthing
 	net-vpn/openvpn
