@@ -18,11 +18,13 @@ DEPEND="
 	app-arch/unrar
 	app-crypt/efitools
 	app-crypt/sbsigntools
+	app-crypt/signify
 	app-editors/nano
 	app-editors/neovim
 	app-eselect/eselect-repository
 	app-misc/nnn
 	app-misc/reptyr
+	app-portage/eix
 	app-portage/gentoolkit
 	app-portage/portage-utils
 	app-text/highlight

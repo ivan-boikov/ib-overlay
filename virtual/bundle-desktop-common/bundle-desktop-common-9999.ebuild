@@ -14,6 +14,7 @@ DEPEND="
 	app-admin/pass-otp
 	app-backup/borgbackup
 	app-crypt/pinentry
+	app-emulation/qemu
 	app-emulation/virt-manager
 	app-misc/abook
 	app-misc/tmux
@@ -83,6 +84,7 @@ DEPEND="
 	www-client/chromium-bin
 	www-client/firefox
 	www-client/lynx
+	www-misc/profile-sync-daemon
 	x11-base/xorg-server
 	x11-base/xorg-x11
 	x11-misc/dmenu
