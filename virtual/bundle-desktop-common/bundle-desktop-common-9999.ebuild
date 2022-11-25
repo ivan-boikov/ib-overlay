@@ -87,6 +87,7 @@ DEPEND="
 	www-misc/profile-sync-daemon
 	x11-base/xorg-server
 	x11-base/xorg-x11
+	x11-libs/libXft
 	x11-misc/dmenu
 	x11-misc/dunst
 	x11-misc/grabc
