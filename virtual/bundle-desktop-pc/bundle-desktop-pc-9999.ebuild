@@ -13,5 +13,6 @@ DEPEND="
 	virtual/bundle-desktop-common
 	games-action/multimc-bin
 	games-util/lutris
+	media-sound/beets
 	app-emulation/dxvk
 "

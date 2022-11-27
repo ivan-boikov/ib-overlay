@@ -1,6 +1,6 @@
 EAPI=8
 
-DESCRIPTION="Bundling my packages together to manage multiple installs"
+DESCRIPTION="Packages for minimal terminal-based system"
 
 LICENSE="metapackage"
 SLOT="0"
@@ -24,11 +24,11 @@ DEPEND="
 	app-eselect/eselect-repository
 	app-misc/nnn
 	app-misc/reptyr
+	app-misc/vlock
 	app-portage/eix
 	app-portage/gentoolkit
 	app-portage/portage-utils
 	app-text/highlight
-	dev-lang/python
 	dev-vcs/git
 	net-analyzer/iftop
 	net-analyzer/nmap
@@ -52,4 +52,10 @@ DEPEND="
 	sys-process/cronie
 	sys-process/htop
 	sys-process/iotop
+	sys-apps/etckeeper
+	net-vpn/openvpn
+	app-misc/trash-cli
+	app-shells/bash-completion
+	dev-python/pip
+	dev-python/virtualenv
 "
