@@ -11,6 +11,7 @@ REQUIRED_USE="${IUSE}"
 
 DEPEND="
 	app-crypt/libsecret
+	dev-python/pyxdg
 	virtual/bundle-base
 	app-admin/pass
 	app-admin/pass-otp
@@ -94,8 +95,9 @@ DEPEND="
 "
 
 # NOTES:
-# libsecret is needed for manually installed protonmail-bridge (it disappeared from repo)
-# trash bin:
+#	libsecret is needed for manually installed protonmail-bridge (it disappeared from repo)
+#	dev-python/pyxdg is needed for pass-git-helper
+# TRASH BIN:
 # 	dev-libs/cxxopts
 #	media-sound/sox
 #	media-sound/easyeffects
