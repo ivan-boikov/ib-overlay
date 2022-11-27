@@ -86,7 +86,7 @@ DEPEND="
 	x11-misc/slock
 	x11-misc/redshift
 	x11-misc/tabbed
-	x11-misc/unclutter
+	x11-misc/unclutter-xfixes
 	x11-misc/xautolock
 	x11-misc/xclip
 	x11-misc/xcompmgr
