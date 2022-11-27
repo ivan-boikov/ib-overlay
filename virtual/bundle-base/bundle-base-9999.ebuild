@@ -24,7 +24,6 @@ DEPEND="
 	app-eselect/eselect-repository
 	app-misc/nnn
 	app-misc/reptyr
-	app-misc/vlock
 	app-portage/eix
 	app-portage/gentoolkit
 	app-portage/portage-utils
