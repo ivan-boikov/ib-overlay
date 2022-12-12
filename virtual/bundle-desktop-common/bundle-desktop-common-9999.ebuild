@@ -72,7 +72,6 @@ DEPEND="
 	sys-fs/compsize
 	sys-fs/jmtpfs
 	sys-process/lsof
-	virtual/wine
 	www-client/chromium-bin
 	www-client/firefox
 	www-client/lynx
