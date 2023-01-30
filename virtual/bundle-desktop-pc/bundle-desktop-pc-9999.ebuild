@@ -12,12 +12,12 @@ REQUIRED_USE="${IUSE}"
 # dev-libs/openssl-compat is for Dawn of War II
 # media-libs/sdl2-image - same
 # media-libs/sdl2-ttf - same
-# net-dns/openldap - same (I think)
+# net-nds/openldap - same (I think)
 OUT_OF_TREE_DEPS="
 	media-libs/sdl2-image
 	media-libs/sdl2-ttf
 	dev-libs/openssl-compat
-	net-dns/openldap
+	net-nds/openldap
 "
 
 # TRASH BIN:
