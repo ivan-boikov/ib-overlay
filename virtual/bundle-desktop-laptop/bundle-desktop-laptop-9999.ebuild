@@ -16,5 +16,5 @@ DEPEND="
 	x11-apps/igt-gpu-tools
 	sys-firmware/intel-microcode
 	net-vpn/networkmanager-openvpn
-	games-action/multimc-bin
+	www-client/firefox-bin
 "

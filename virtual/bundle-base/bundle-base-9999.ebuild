@@ -23,8 +23,8 @@ DEPEND="
 	app-editors/neovim
 	app-eselect/eselect-repository
 	app-misc/nnn
-	app-misc/reptyr
 	app-portage/eix
+	app-portage/euses
 	app-portage/gentoolkit
 	app-portage/portage-utils
 	app-text/highlight
