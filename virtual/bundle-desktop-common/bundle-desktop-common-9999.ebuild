@@ -47,7 +47,6 @@ DEPEND="
 	dev-util/android-tools
 	dev-util/shellcheck-bin
 	dev-util/valgrind
-	games-action/multimc-bin
 	games-util/joystick
 	lxde-base/lxappearance
 	mail-client/neomutt
