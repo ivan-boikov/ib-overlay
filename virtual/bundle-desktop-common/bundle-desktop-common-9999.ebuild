@@ -108,4 +108,6 @@ DEPEND="
 	x11-misc/xcompmgr
 	x11-misc/xdotool
 	x11-misc/xwallpaper
+	net-fs/cifs-utils
+	media-tv/v4l-utils
 "

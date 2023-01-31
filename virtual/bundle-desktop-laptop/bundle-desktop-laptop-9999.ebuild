@@ -17,4 +17,5 @@ DEPEND="
 	sys-firmware/intel-microcode
 	net-vpn/networkmanager-openvpn
 	www-client/firefox-bin
+	x11-drivers/xf86-video-intel
 "
