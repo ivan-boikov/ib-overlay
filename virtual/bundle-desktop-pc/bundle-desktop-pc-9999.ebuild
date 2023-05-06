@@ -1,6 +1,6 @@
 EAPI=8
 
-DESCRIPTION="Bundling my packages together to manage multiple installs"
+DESCRIPTION="Packages for my PC"
 
 LICENSE="metapackage"
 SLOT="0"

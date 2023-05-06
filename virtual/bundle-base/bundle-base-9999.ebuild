@@ -1,6 +1,6 @@
 EAPI=8
 
-DESCRIPTION="Packages for minimal terminal-based system"
+DESCRIPTION="Packages for a light terminal-based system"
 
 LICENSE="metapackage"
 SLOT="0"
@@ -34,13 +34,15 @@ DEPEND="
 	net-analyzer/traceroute
 	net-dns/bind-tools
 	net-firewall/ufw
-	net-fs/samba
+	net-fs/cifs-utils
 	net-misc/chrony
+	net-misc/iperf
 	sys-apps/lshw
 	sys-apps/pciutils
 	sys-apps/usbutils
 	sys-boot/efibootmgr
 	sys-boot/mokutil
+	sys-devel/distcc
 	sys-fs/btrfs-progs
 	sys-fs/cryptsetup
 	sys-fs/dosfstools
@@ -50,9 +52,8 @@ DEPEND="
 	sys-kernel/linux-firmware
 	sys-process/cronie
 	sys-process/htop
-	sys-process/iotop
+	sys-process/lsof
 	sys-apps/etckeeper
-	net-vpn/openvpn
 	app-misc/trash-cli
 	app-shells/bash-completion
 	dev-python/pip
