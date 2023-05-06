@@ -45,7 +45,7 @@ DEPEND="
 	app-emulation/virt-manager
 	app-misc/tmux
 	app-misc/reptyr
-	app-office/libreoffice
+	app-office/libreoffice-bin
 	app-shells/fzf
 	app-text/pdftk
 	app-text/texlive
