@@ -46,6 +46,7 @@ DEPEND="
 	app-misc/reptyr
 	app-misc/tmux
 	app-office/libreoffice-bin
+	app-portage/cpuid2cpuflags
 	app-shells/fzf
 	app-text/pdftk
 	app-text/texlive
