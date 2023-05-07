@@ -50,7 +50,7 @@ DEPEND="
 	sys-kernel/genkernel
 	sys-kernel/gentoo-sources
 	sys-kernel/linux-firmware
-	sys-process/cronie
+	virtual/cron
 	sys-process/htop
 	sys-process/lsof
 	sys-apps/etckeeper
