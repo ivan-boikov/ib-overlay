@@ -29,7 +29,6 @@ EMAIL_DEPS="
 	mail-mta/msmtp
 	mail-mta/proton-mail-bridge
 	net-mail/isync
-	net-mail/notmuch
 	www-client/lynx
 "
 
