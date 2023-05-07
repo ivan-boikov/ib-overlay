@@ -29,7 +29,4 @@ DEPEND="
 	app-emulation/dxvk
 	games-util/lutris
 	games-action/multimc-bin
-	media-sound/beets
-	media-video/droidcam
-	www-client/firefox
 "

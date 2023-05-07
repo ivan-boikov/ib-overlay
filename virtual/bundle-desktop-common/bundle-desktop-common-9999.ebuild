@@ -67,6 +67,7 @@ DEPEND="
 	media-gfx/inkscape
 	media-gfx/maim
 	media-gfx/sxiv
+	media-sound/beets
 	media-sound/mpc
 	media-sound/mpd
 	media-sound/ncmpcpp
@@ -77,6 +78,7 @@ DEPEND="
 	media-sound/shntool
 	media-sound/spek
 	media-tv/v4l-utils
+	media-video/droidcam
 	media-video/ffmpeg
 	media-video/mediainfo
 	media-video/pipewire
@@ -102,6 +104,7 @@ DEPEND="
 	sys-fs/simple-mtpfs
 	virtual/bundle-base
 	virtual/jre
+	www-client/firefox-bin
 	x11-base/xorg-server
 	x11-misc/devour
 	x11-misc/dmenu
