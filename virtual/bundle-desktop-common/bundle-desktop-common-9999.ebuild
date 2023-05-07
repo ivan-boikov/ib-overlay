@@ -53,8 +53,8 @@ DEPEND="
 	app-text/xournalpp
 	app-text/zathura-meta
 	dev-qt/qtstyleplugins
+	dev-tex/biber
 	dev-tex/latexmk
-	dev-texu/biber
 	dev-util/android-tools
 	dev-util/shellcheck-bin
 	dev-util/valgrind
@@ -70,7 +70,9 @@ DEPEND="
 	media-sound/mpc
 	media-sound/mpd
 	media-sound/ncmpcpp
+	media-sound/ncpamixer
 	media-sound/opus-tools
+	media-sound/pamixer
 	media-sound/playerctl
 	media-sound/shntool
 	media-sound/spek
@@ -100,7 +102,7 @@ DEPEND="
 	sys-fs/simple-mtpfs
 	virtual/bundle-base
 	virtual/jre
-	www-client/chromium-bin
+	x11-base/xorg-server
 	x11-misc/devour
 	x11-misc/dmenu
 	x11-misc/dunst
