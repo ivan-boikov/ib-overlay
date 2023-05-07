@@ -24,6 +24,7 @@ OUT_OF_TREE_DEPS="
 # maybe move it to another package
 EMAIL_DEPS="
 	app-misc/abook
+	mail-client/mutt-wizard
 	mail-client/neomutt
 	mail-mta/msmtp
 	mail-mta/proton-mail-bridge
@@ -35,16 +36,16 @@ EMAIL_DEPS="
 DEPEND="
 	${OUT_OF_TREE_DEPS}
 	${EMAIL_DEPS}
-	virtual/bundle-base
 	app-admin/pass
-	app-admin/pass-otp
 	app-admin/pass-git-helper
+	app-admin/pass-otp
 	app-backup/borgbackup
 	app-crypt/pinentry
 	app-emulation/qemu
 	app-emulation/virt-manager
-	app-misc/tmux
+	app-misc/dragon
 	app-misc/reptyr
+	app-misc/tmux
 	app-office/libreoffice-bin
 	app-shells/fzf
 	app-text/pdftk
@@ -52,8 +53,8 @@ DEPEND="
 	app-text/xournalpp
 	app-text/zathura-meta
 	dev-qt/qtstyleplugins
-	dev-texu/biber
 	dev-tex/latexmk
+	dev-texu/biber
 	dev-util/android-tools
 	dev-util/shellcheck-bin
 	dev-util/valgrind
@@ -72,9 +73,12 @@ DEPEND="
 	media-sound/opus-tools
 	media-sound/playerctl
 	media-sound/shntool
+	media-sound/spek
+	media-tv/v4l-utils
 	media-video/ffmpeg
 	media-video/mediainfo
 	media-video/pipewire
+	net-fs/curlftpfs
 	net-fs/samba
 	net-ftp/lftp
 	net-im/signal-desktop-bin
@@ -83,14 +87,21 @@ DEPEND="
 	net-misc/yt-dlp
 	net-p2p/monero
 	net-p2p/syncthing
+	net-vpn/openvpn
 	sys-apps/firejail
 	sys-apps/lm-sensors
 	sys-apps/smartmontools
 	sys-block/gparted
 	sys-fs/archivemount
+	sys-fs/bees
 	sys-fs/compsize
+	sys-fs/exfatprogs
 	sys-fs/jmtpfs
+	sys-fs/simple-mtpfs
+	virtual/bundle-base
+	virtual/jre
 	www-client/chromium-bin
+	x11-misc/devour
 	x11-misc/dmenu
 	x11-misc/dunst
 	x11-misc/grabc
@@ -103,7 +114,4 @@ DEPEND="
 	x11-misc/xcompmgr
 	x11-misc/xdotool
 	x11-misc/xwallpaper
-	media-tv/v4l-utils
-	net-vpn/openvpn
-	virtual/jre
 "
