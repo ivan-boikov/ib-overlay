@@ -53,7 +53,7 @@ DEPEND="
 	app-text/xournalpp
 	app-text/zathura-meta
 	dev-qt/qtstyleplugins
-	dev-tex/biber
+	dev-tex/biblatex
 	dev-tex/latexmk
 	dev-util/android-tools
 	dev-util/shellcheck-bin
