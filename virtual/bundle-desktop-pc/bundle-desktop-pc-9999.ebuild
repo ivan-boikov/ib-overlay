@@ -27,6 +27,5 @@ DEPEND="
 	${OUT_OF_TREE_DEPS}
 	virtual/bundle-desktop-common
 	app-emulation/dxvk
-	games-util/lutris
 	games-action/multimc-bin
 "
